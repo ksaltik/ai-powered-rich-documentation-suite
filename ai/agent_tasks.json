@@ -1,0 +1,24 @@
+{
+  "agent_name": "doc-assistant-pro",
+  "version": "1.1",
+  "tasks": [
+    {
+      "id": "generate_mermaid_diagram",
+      "description": "Metni analiz et ve Mermaid.js formatında akış şeması üret.",
+      "prompt_template": "Aşağıdaki süreci analiz et ve sadece Mermaid.js 'graph TD' kodunu döndür. Açıklama yapma.\n\nMetin:\n{text}",
+      "post_processing": ["extract_code_block", "validate_mermaid_syntax"]
+    },
+    {
+      "id": "semantic_rag_search",
+      "description": "Postgres pgvector kullanarak dökümanlar arası akıllı arama yap.",
+      "input_schema": { "query": "string", "limit": 5 },
+      "process_steps": ["embed_query", "vector_similarity_search", "rerank_results"],
+      "outputs": { "matches": "Array<{id, snippet, score}>" }
+    },
+    {
+      "id": "smart_paraphrase",
+      "description": "Metni yeniden yazarken LaTeX ve HTML taglerini koru.",
+      "prompt_template": "Aşağıdaki metni {tone} tonda yeniden yaz. [DİKKAT] KaTeX ($...$) ve Mermaid yapılarını kesinlikle değiştirme.\n\nMetin:\n{text}"
+    }
+  ]
+}
