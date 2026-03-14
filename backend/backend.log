@@ -1,0 +1,45 @@
+
+> backend@0.0.1 start:dev
+> nest start --watch
+
+[2J[3J[H[[90m12:39:04 PM[0m] Starting compilation in watch mode...
+
+[[90m12:39:08 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +21ms[39m
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 14711  - [39m03/14/2026, 12:39:09 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Application is running on: http://[::1]:3001
+
+  Hocuspocus v3.4.4 running at:
+
+  > HTTP: http://0.0.0.0:3000
+  > WebSocket: ws://0.0.0.0:3000
+Hocuspocus Server is running on ws://localhost:3000
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User connected to Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
+User disconnected from Hocuspocus: my-document
